@@ -4,6 +4,8 @@ App Name : Mulify
 
 Class : L1AC
 
+Course : Human and Computer Interaction_COMP6800001
+
 Group Members : 
 - Ferdinand Jacques_2501982600
 - Jonathan Prasetyo_2501982613
