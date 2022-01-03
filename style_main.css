@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.header-list {
+    background-color: white;
+    height: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px
+}
+
+.login {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    box-shadow: black;
+    float: right;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.sign-up {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    box-shadow: black;
+    float: right;
+    margin: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.search {
+    border: 1px black;
+}
