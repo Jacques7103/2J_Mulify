@@ -5,6 +5,7 @@ body {
 .header-list {
     background-color: white;
     height: 100px;
+    margin: -8px;
 }
 
 .logo {
@@ -21,6 +22,7 @@ body {
     float: right;
     margin: 5px;
     margin-top: 10px;
+    padding: 10px;
 }
 
 .sign-up {
@@ -32,8 +34,20 @@ body {
     margin: 5px;
     margin-top: 10px;
     margin-right: 10px;
+    padding: 10px;
 }
 
 .search {
-    border: 1px black;
+    float: right;
+    margin-top: 65px;
+    margin-right: -178px;
+    padding-left: 5px;
+}
+
+.png {
+    float: right;
+    width: 23px;
+    margin-right: -213px;
+    margin-top: 65px;
+    position: relative;
 }
