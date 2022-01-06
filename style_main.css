@@ -6,12 +6,13 @@ body {
     background-color: white;
     height: 100px;
     margin: -8px;
+    display: block;
 }
 
 .logo {
     width: 100px;
     height: 100px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .login {
@@ -20,8 +21,7 @@ body {
     background-color: red;
     box-shadow: black;
     float: right;
-    margin: 5px;
-    margin-top: 10px;
+    margin: 10px 5px 5px 5px;
     padding: 10px;
 }
 
@@ -31,23 +31,61 @@ body {
     background-color: red;
     box-shadow: black;
     float: right;
-    margin: 5px;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin: 10px 10px 5px 5px;
     padding: 10px;
 }
 
 .search {
     float: right;
-    margin-top: 65px;
-    margin-right: -178px;
-    padding-left: 5px;
+    margin: 65px -175px 0 0;
 }
 
 .png {
     float: right;
     width: 23px;
-    margin-right: -213px;
-    margin-top: 65px;
-    position: relative;
+    margin: 65px -213px 0 0;
+}
+
+@media (max-width: 334px) {
+.login {
+    margin: 10px 5px 5px 5px;
+    width: 25%;
+}
+
+.sign-up {
+    margin: 10px 10px 5px 5px;
+    width: 25%;
+}
+
+.search {
+    margin: -40px 50px 0 0;
+    width: 38.5%;
+}
+
+.png {
+    margin: -39px 12px 0 0;
+    width: 6.5%;
+}
+}
+
+@media (max-width: 280px) {
+.login {
+    margin: 10px 5px 5px 5px;
+    width: 25%;
+}
+    
+.sign-up {
+    margin: 10px 10px 5px 5px;
+    width: 25%;
+}
+
+.search {
+    margin: -40px 44px 0 0;
+    width: 38.5%;
+}
+
+.png {
+    margin: -39.5px 12px 0 0;
+    width: 8%;
+}
 }
