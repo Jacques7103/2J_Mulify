@@ -1,16 +1,32 @@
 const login = document.getElementById("login")
-const modal_container = document.getElementById("modal_container")
-const close = document.getElementById("close")
+const sign_up = document.getElementById("sign_up")
+const modal_container_1 = document.getElementById("modal_container_1")
+const modal_container_2 = document.getElementById("modal_container_2")
+const close_1 = document.getElementById("close_1")
+const close_2 = document.getElementById("close_2")
 const login_me = document.getElementById("login_me")
+const sing_up_me = document.getElementById("sign_up_me")
 
 login.addEventListener("click", () => {
-    modal_container.classList.add("show");
+    modal_container_1.classList.add("show");
 });
 
-close.addEventListener("click", () => {
-    modal_container.classList.remove("show");
+close_1.addEventListener("click", () => {
+    modal_container_1.classList.remove("show");
 });
 
 login_me.addEventListener("click", () => {
-    modal_container.classList.remove("show");
+    modal_container_1.classList.remove("show");
+});
+
+sign_up.addEventListener("click", () => {
+    modal_container_2.classList.add("show");
+});
+
+close_2.addEventListener("click", () => {
+    modal_container_2.classList.remove("show");
+});
+
+sign_up_me.addEventListener("click", () => {
+    modal_container_2.classList.remove("show");
 });
