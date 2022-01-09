@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    max-width: 100%;
 }
 
 .header-list {
@@ -89,3 +90,143 @@ body {
     width: 8%;
 }
 }
+
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: baseline; 
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.3s ease;
+}
+
+.modal {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1000px) {
+.modal-container {
+    align-items: center;
+}
+}
+
+.close{
+    color: #fff;
+    background: linear-gradient(to right, #33a3ff, #0675cf, #4cd5ff);
+    font-size: 20px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    transition: all 0.3s;
+    margin-left: 164px;
+    border: #fff;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 376px) {
+.close {
+    margin-left: 150px;
+}
+}
+
+@media (max-width: 321px) {
+.close {
+    margin-left: 130px;
+}
+}
+
+.close:hover{
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.close:focus{ outline: none; }
+
+.title {
+    margin-bottom: -5px;
+}
+
+.input-icon{
+    color: #777;
+    font-size: 20px;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-top: 19.5px;
+    margin-left: -246px;
+}
+
+.form-control{
+    font-size: 17px;
+    padding: 8.5px 0px 6px 50px;
+    margin: 0 auto;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+}
+
+.form {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.checkbox {
+    width: 130px;
+    margin-left: -10px;
+    margin-right: 27px;
+    display: inline-block;
+}
+
+.forgot-password {
+    color: #7F7FD5;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.login-me {
+    color: #fff;
+    background: linear-gradient(to right, #33a3ff, #0675cf, #4cd5ff);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 38px;
+    width: 66%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.6s ease 0s;
+    margin-top: 13px;
+}
+
+.login-me:hover {
+    color: #fff;
+    letter-spacing: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-me:focus{ outline: none; }
