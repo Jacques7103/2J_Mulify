@@ -288,6 +288,15 @@ body {
 
 .sign-up-me:focus{ outline: none; }
 
+.have-account {
+    display: block;
+    margin-top: 13px;
+}
+
+.modal-container-2 .modal {
+    padding-bottom: 33px;
+}
+
 .list-1 {
     margin-left: 1.5%;
     margin-top: 1.5%;
