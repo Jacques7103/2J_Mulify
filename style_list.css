@@ -288,11 +288,11 @@ body {
 
 .sign-up-me:focus{ outline: none; }
 
-h2 {
-    color: white;
-    font-size: 40px;
+.have-account {
+    display: block;
+    margin-top: 13px;
 }
 
-.description-1 {
-    color: white;
+.modal-container-2 .modal {
+    padding-bottom: 33px;
 }
