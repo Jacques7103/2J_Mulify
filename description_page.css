@@ -399,3 +399,12 @@ body {
 }
 
 .sign-up-me:focus{ outline: none; }
+
+.have-account {
+    display: block;
+    margin-top: 13px;
+}
+
+.modal-container-2 .modal {
+    height: 340px;
+}
