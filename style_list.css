@@ -414,3 +414,9 @@ body {
     width: 47%;
 }
 }
+
+@media (min-width: 1441px) {
+.song {
+    margin: 23px;
+}
+}
