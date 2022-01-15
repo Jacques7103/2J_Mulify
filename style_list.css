@@ -296,3 +296,121 @@ body {
 .modal-container-2 .modal {
     padding-bottom: 33px;
 }
+
+.top-title {
+    color: white;
+    margin-top : 40px;
+    margin-left: 7px;
+    font-size: 30px;
+}
+
+.song {
+    box-shadow: 0 .5rem 1rem #fff;
+    background-color: white;
+    height: 120px;
+    margin: 3px;
+    box-sizing: border-box;
+    float: left;
+    width: 99%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100px;
+    margin: 10px;
+    float: left;
+}
+
+.song-title {
+    font-size: 25px;
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+.artist {
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.release {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.album {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.produce {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.genre {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+.top-title {
+    font: 1rem;
+    margin-left: 20px;
+}
+
+.song {
+    width: 95%;
+    height: 200px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 180px;
+}
+
+.song-title {
+    margin-top: 3px;
+    font-size: 2rem;
+    padding-left: 5px;
+}
+
+.artist {
+    margin-top: -20px;
+    font-size: 18px;
+}
+
+.release {
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+.album {
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+.produce {
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+.genre {
+    margin-top: -8px;
+    font-size: 18px;
+}
+}
+
+@media (min-width: 1024px) {
+.song {
+    width: 96%;
+}
+}
+
+@media (min-width: 1349px) {
+.song {
+    width: 47%;
+}
+}
