@@ -1,5 +1,5 @@
 # Mulify - Human and Computer Interaction_COMP6800001 - Final Project
-## Live link :
+## Live link : https://jacques7103.github.io/2J_Mulify/index.html
 ## Group : 2J
 ## Group Members :
 - Ferdinand Jacques_2501982600
