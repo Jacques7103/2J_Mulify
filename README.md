@@ -1,8 +1,7 @@
 # Mulify - Human and Computer Interaction_COMP6800001 - Final Project
 Live link :
 
-# Group :
-## Group Name : 2J
+# Group : 2J
 ## Group Members :
 - Ferdinand Jacques_2501982600
 - Jonathan Prasetyo_2501982613
@@ -14,7 +13,7 @@ make it very easy for you to search for songs, understand songs and singers so t
 more about the meaning of the song.
 
 ## Features :
-- Sort musics by genre
-- Sort musics by artist
+- Top songs per year
 - Displaying Lyrics of the song
 - Displaying description of the song
+- Recommendation song
