@@ -1,0 +1,139 @@
+body {
+    background-color: black;
+    max-width: 100%;
+}
+
+.header-list {
+    background-color: white;
+    height: 100px;
+    margin: -8px;
+    display: block;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.search {
+    float: right;
+    margin: 65px -170px 0 0;
+}
+
+.png {
+    float: right;
+    width: 23px;
+    margin: 65px -219px 0 0;
+}
+
+@media (max-width: 334px) {
+.search {
+    margin: -40px 50px 0 0;
+    width: 38.5%;
+}
+
+.png {
+    margin: -39px 12px 0 0;
+    width: 6.5%;
+}
+}
+
+@media (max-width: 280px) {
+.search {
+    margin: -40px 44px 0 0;
+    width: 38.5%;
+}
+
+.png {
+    margin: -39.5px 12px 0 0;
+    width: 8%;
+}
+}
+
+.user {
+    width: 45px;
+    float: right;
+    margin: 10px 10px 5px 5px;
+}
+
+.user_name {
+    float: right;
+    background-color: #E5E7E8;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: -5px;
+    padding: 6px 15px;
+    padding-bottom: 4.5px;
+    padding-right: 35px;
+}
+
+.list-1 {
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.t1975 {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: -0.5%;
+}
+
+@media (max-width: 541px) {
+.t1975 {
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+}
+
+.description-1 {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.parent {
+    width: 22%;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+}
+
+.child {
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    width: 100%;
+}
+
+.txt {
+    text-align: center;
+    font-family: Poppins;
+}
+
+@media (max-width: 451px) {
+.parent {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.image {
+    display: block;
+}
+}
