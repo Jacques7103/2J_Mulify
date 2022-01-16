@@ -253,8 +253,44 @@ body {
     transition: opacity 0.3s ease;
 }
 
+.modal-container-3 {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: baseline; 
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    padding-bottom: -10px;
+}
+
+.modal-container-3.show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.3s ease;
+}
+
+.modal-container-3 .modal {
+    height: 255px;
+}
+
+.term {
+    width: 130px;
+    margin-left: -125px;
+    margin-right: -50px;
+    display: inline-block;
+}
+
 @media (min-width: 1000px) {
 .modal-container-2 {
+    align-items: center;
+}
+
+.modal-container-3 {
     align-items: center;
 }
 }
