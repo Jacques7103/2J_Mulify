@@ -9,7 +9,7 @@
 ## Project Description : 
 This website was created for those of you who feel that music is a part of your life because it will
 make it very easy for you to search for songs, understand songs and singers so that you can learn
-more about the song.
+more about the songs.
 
 ## Features :
 - Top songs per year
