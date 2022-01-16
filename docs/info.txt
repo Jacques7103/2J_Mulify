@@ -2,3 +2,5 @@
 2. Latest-Music-Poster.jpeg = Latest poster
 3. Main_Page = Main page sketch
 4. Description_Page.jpeg = Description page sketch
+5. main_page.html = old main page
+6. index.html = newest main page
