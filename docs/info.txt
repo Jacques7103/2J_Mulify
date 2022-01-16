@@ -19,6 +19,7 @@ Contribution :
 - main_page.html / index.html & style_main.css
 - user_page.html & style_user.css
 - list_page.html & style_list.css
+- user.js
 - Website Header
 - Test Case
 - Use Case & Use Case Diagram
