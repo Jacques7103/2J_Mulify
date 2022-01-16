@@ -291,6 +291,7 @@ body {
 .have-account {
     display: block;
     margin-top: 13px;
+    cursor: pointer;
 }
 
 .modal-container-2 .modal {
