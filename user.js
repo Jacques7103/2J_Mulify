@@ -16,19 +16,11 @@ close_1.addEventListener("click", () => {
     modal_container_1.classList.remove("show");
 });
 
-login_me.addEventListener("click", () => {
-    modal_container_1.classList.remove("show");
-});
-
 sign_up.addEventListener("click", () => {
     modal_container_2.classList.add("show");
 });
 
 close_2.addEventListener("click", () => {
-    modal_container_2.classList.remove("show");
-});
-
-sign_up_me.addEventListener("click", () => {
     modal_container_2.classList.remove("show");
 });
 
