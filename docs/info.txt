@@ -21,6 +21,8 @@ Contribution :
 - Website Header
 - Test Case
 - Use Case & Use Case Diagram
+- Mulify Logo
+- "Mulify" Name
 
 2. Jonathan Prasetyo
 - description_page.html & description_page.css
