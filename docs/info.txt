@@ -29,3 +29,6 @@ Contribution :
 - Test Case
 - Activity Diagram
 - Poster Design
+- Main_page.jpeg
+- List_page.jpeg
+- Description_page.jpeg
