@@ -1,7 +1,6 @@
 # Mulify - Human and Computer Interaction_COMP6800001 - Final Project
-Live link :
-
-# Group : 2J
+## Live link :
+## Group : 2J
 ## Group Members :
 - Ferdinand Jacques_2501982600
 - Jonathan Prasetyo_2501982613
