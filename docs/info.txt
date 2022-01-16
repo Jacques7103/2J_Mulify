@@ -1,6 +1,31 @@
+Changes :
 1. Music Poster.pdf = Previous poster
 2. Latest-Music-Poster.jpeg = Latest poster
 3. Main_Page = Main page sketch
 4. Description_Page.jpeg = Description page sketch
 5. main_page.html = old main page
 6. index.html = newest main page
+
+Source :
+1. https://de.napster.com/artist/various-artists/album/r-and-b-explicit
+2. Florin Pop : https://www.youtube.com/watch?v=XH5OW46yO8I&ab_channel=FlorinPop
+3. Foolish Developer : https://www.foolishdeveloper.com/2021/06/popup-login-form-design-using-html-and.html
+4. https://genius.com
+https://www.officialcharts.com/chart-news/the-official-top-40-biggest-songs-of-2021__34857/
+
+Contribution :
+1. Ferdinand Jacques
+- main_page.html / index.html & style_main.css
+- user_page.html & style_user.css
+- list_page.html & style_list.css
+- Website Header
+- Test Case
+- Use Case & Use Case Diagram
+- Mulify Logo
+- "Mulify" Name
+
+2. Jonathan Prasetyo
+- description_page.html & description_page.css
+- Test Case
+- Activity Diagram
+- Poster Design
