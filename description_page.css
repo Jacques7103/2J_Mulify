@@ -80,7 +80,6 @@ body {
 }
 
 .frame {
-
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -126,7 +125,7 @@ body {
     background-color: red;
     box-shadow: black;
     float: right;
-    margin: 10px 5px 5px 5px;
+    margin: 10px -100px 5px 5px;
     padding: 10px;
     position: relative;
 }
@@ -137,50 +136,47 @@ body {
     background-color: red;
     box-shadow: black;
     float: right;
-    margin: 10px 10px 5px 5px;
+    margin: 10px -214px 5px 5px;
     padding: 10px;
     position: relative;
 }
 
 .search {
     float: right;
-    right: 30px;
-    bottom: 10px;
-    position: absolute;
+    margin: 65px 20px 0 0;
 }
 
 .png {
     float: right;
-    position: absolute;
-    bottom: 10px;
-    right:5px;
-    width: 25px;
+    width: 23px;
+    margin: 65px 10px 0 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 320px) {
     .box1,
     .box2 {
         flex: 100%;
-        /* border: 0px; */
     }
     .content1{
         font-size:1rem;
     }
-.login {
-    width: 25%;
-}
-
-.sign-up {
-    width: 25%;
-}
-
-.search {
-    width: 38.5%;
-}
-
-.png {
-    width: 6.5%;
-}
+    .login {
+        margin-right: -73px;
+        width: 24%;
+    }
+    
+    .sign-up {
+        margin-right: -161px;
+        width: 24%;
+    }
+    
+    .search {
+        width: 38.5%;
+    }
+    
+    .png {
+        width: 7.5%;
+    }
 }
 
 @media (max-width: 280px) {
