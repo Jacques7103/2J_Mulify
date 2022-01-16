@@ -106,6 +106,14 @@ body {
     white-space: pre-wrap;
 }
 
+.content2 {
+    font-size: 20px;
+    color: white;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
 .header-list {
     background-color: white;
     height: 100px;
