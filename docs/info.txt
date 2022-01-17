@@ -22,7 +22,7 @@ Contribution :
 - user.js
 - Website Header
 - Test Case
-- Use Case & Use Case Diagram
+- Use Case Scenario & Use Case Diagram
 - Mulify Logo
 - "Mulify" Name
 
